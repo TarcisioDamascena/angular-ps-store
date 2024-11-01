@@ -9,6 +9,8 @@ import { Component, Input } from '@angular/core';
 })
 export class CardPricingComponent {
   @Input()
+  gameName: string = 'Undefined';
+  @Input()
   gameType: string = 'Undefined';
   @Input()
   gamePrice: string = 'Undefined';
