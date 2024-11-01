@@ -5,9 +5,9 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './card-label.component.html',
-  styleUrl: './card-label.component.css'
+  styleUrl: './card-label.component.css',
 })
 export class CardLabelComponent {
   @Input()
-  gameLabel: string = ''
+  gameLabel: string = 'Undefined';
 }

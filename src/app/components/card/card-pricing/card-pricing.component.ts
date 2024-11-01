@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardPricingComponent {
   @Input()
-  gameName: string = 'Undefined';
+  gameTitle: string = 'Undefined';
   @Input()
   gameType: string = 'Undefined';
   @Input()

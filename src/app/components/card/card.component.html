@@ -1,11 +1,10 @@
 <a href="#" class="card-container">
-  <img src="bt-5.jpg" alt="Game logo" class="card-image" />
-  <app-card-label gameLabel="Exclusive"> </app-card-label>
+  <img [src]="[gameCover]" alt="Game logo" class="card-image" />
+  <app-card-label gameLabel="{{ gameLabel }}"> </app-card-label>
   <app-card-pricing
-    gameName="BattleField 5"
-    gameType="PS4"
-    gamePrice="$ 99,99"
+    gameTitle="{{ gameTitle }}"
+    gameType="{{ gameType }}"
+    gamePrice="{{ gamePrice }}"
   >
-
   </app-card-pricing>
 </a>
